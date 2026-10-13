@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mobile Sauna — Бани на колёсах</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: white;
+    }
+    header {
+      padding: 20px;
+      text-align: center;
+      background: #1b1b1b;
+    }
+    header h1 { color: #e5a34b; margin-bottom: 8px; }
+    .hero {
+      min-height: 75vh;
+      padding: 70px 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background: linear-gradient(135deg, #111, #49301c);
+    }
+    .hero h2 { font-size: 38px; max-width: 700px; }
+    .hero p { font-size: 18px; color: #ddd; }
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 15px 25px;
+      background: #e5a34b;
+      color: #111;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 8px;
+    }
+    section { padding: 40px 20px; text-align: center; }
+    .cards {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .card {
+      background: #222;
+      border: 1px solid #444;
+      border-radius: 12px;
+      padding: 25px;
+      max-width: 300px;
+    }
+    .card h3 { color: #e5a34b; }
+    footer {
+      padding: 25px;
+      text-align: center;
+      background: #1b1b1b;
+      color: #aaa;
+    }
+    @media (max-width: 600px) {
+      .hero h2 { font-size: 30px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🔥 MOBILE SAUNA</h1>
+    <p>Настоящий отдых на колёсах</p>
+  </header>
+
+  <main>
+    <div class="hero">
+      <h2>Твоя баня. Твой отдых. Где угодно.</h2>
+      <p>Мобильные бани с доставкой к тебе в Кыргызстане</p>
+      <a class="btn" href="#contact">Заказать баню</a>
+    </div>
+
+    <section>
+      <h2>Почему выбирают нас?</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>🚚 Доставка</h3>
+          <p>Привезём баню в удобное для тебя место.</p>
+        </div>
+        <div class="card">
+          <h3>🔥 Настоящий жар</h3>
+          <p>Атмосфера полноценной бани на природе.</p>
+        </div>
+        <div class="card">
+          <h3>🌲 Отдых на природе</h3>
+          <p>Отдыхай с друзьями и близкими.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Закажи свою баню</h2>
+      <p>Свяжись с нами, чтобы узнать стоимость и условия доставки.</p>
+      <a class="btn" href="https://wa.me/996XXXXXXXXX">Написать в WhatsApp</a>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 Mobile Sauna. Кыргызстан.
+  </footer>
+</body>
+</html>
